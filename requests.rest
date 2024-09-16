@@ -1,20 +1,62 @@
-# POST http://localhost:3000/signup 
+# access_token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YzgwNTFiNjgzNmFjMTU0NWEwZGMxMSIsImlhdCI6MTcyNDM4NDUzOX0.7xxyVMfL5Xc5NaieK7JZSiP5J2s_gKv73hdcncSBZGY,
+# POST http://localhost:3000/create-blog
 # Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YzgwNTFiNjgzNmFjMTU0NWEwZGMxMSIsImlhdCI6MTcyNDM4NDUzOX0.7xxyVMfL5Xc5NaieK7JZSiP5J2s_gKv73hdcncSBZGY
 
 # {
-#     "email": "kunaa@gmail.com",
-#     "password": "Kunaal"
+#   "title":"test title",
+#   "banner": "https://example.com/image-url",
+#   "des" : "this is des",
+#   "content": {
+#     "blocks" : [1, 2]
+#   },
+#   "tags" : ["tag1","tag2"]
 # }
 
-POST http://localhost:3000/signin
-Content-Type: application/json
 
+# POST http://localhost:3000/signup
+# Content-Type: application/json
+# {
+#     "fullname":"john", 
+#     "email" :"john02@gmail.com", 
+#     "password":"John@123" 
+# }
+
+
+# POST http://localhost:3000/signup
+# Content-Type: application/json
+
+# # {
+# #     "email":"khai04w@hotmail.com",
+# #     "password": "Hongkhai021"
+# # }
 # {
 #     "fullname": "khai",
 #     "email":"khai04@hotmail.com",
 #     "password": "Hongkhai02"
 # }
+
+# GET http://localhost:3000/get-upload-url
+# GET http://localhost:3000/latest-blogs
+# GET http://localhost:3000/trending-blogs
+# POST http://localhost:3000/search-blogs
+# Content-Type: application/json
+
+# {
+#   "tag": "game"
+# }
+
+# POST http://localhost:3000/search-users
+# Content-Type: application/json
+
+# {
+#   "query": "h"
+# }
+
+
+POST  http://localhost:3000/get-profile
+Content-Type: application/json
+
 {
-    "email":"khai04w@hotmail.com",
-    "password": "Hongkhai021"
+  "username": "john02"
 }
