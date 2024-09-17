@@ -50,13 +50,20 @@
 # Content-Type: application/json
 
 # {
-#   "query": "h"
+#   "query": "john"
 # }
-
 
 POST  http://localhost:3000/get-profile
 Content-Type: application/json
 
 {
-  "username": "john02"
+  "blog_id": "-TCL-14-18b-i-h-nh-reroll-Warwick-c-th-c-spam-m-i-l-cbl5FA_1k2Zvw7MLBL56CG"
 }
+
+
+# POST  http://localhost:3000/get-blog
+# Content-Type: application/json
+
+# {
+#   "blog_id": "-TCL-14-18b-i-h-nh-reroll-Warwick-c-th-c-spam-m-i-l-cbl5FA_1k2Zvw7MLBL56CG"
+# }
