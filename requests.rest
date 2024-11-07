@@ -57,7 +57,7 @@ POST  http://localhost:3000/get-profile
 Content-Type: application/json
 
 {
-  "blog_id": "-TCL-14-18b-i-h-nh-reroll-Warwick-c-th-c-spam-m-i-l-cbl5FA_1k2Zvw7MLBL56CG"
+  "username": "khai02"
 }
 
 
